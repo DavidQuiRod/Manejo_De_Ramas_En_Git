@@ -9,6 +9,7 @@ public class Main {
         System.out.println(mensajeDeBienvenida("David"));
         System.out.println(operacionSuma(2,5));
         System.out.println(funcionesClass.operacionResta(19,8));
+        funcionesClass.elNumeroEsParOImpar(3);
     }
     public static String mensajeDeBienvenida(String nombre){
         return "Hola "+nombre +" bienvenido";

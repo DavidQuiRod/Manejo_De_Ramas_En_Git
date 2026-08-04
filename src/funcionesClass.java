@@ -22,4 +22,17 @@ public class funcionesClass{
     public static String ejemplo2(String Rutas){
         return "hola";
     }
+    /**
+     * 04/08/2026
+     * Nombre: elNumeroEsParOImpar
+     * @autor: David Quiroz 
+     * 
+     */
+    public static void elNumeroEsParOImpar(int numeroIngresado){
+        if(numeroIngresado % 2==0){
+            System.out.println("El numero "+ numeroIngresado+" es par");
+        } else {
+            System.out.println("El numero "+numeroIngresado+" es impar");
+        }
+    }
 }
